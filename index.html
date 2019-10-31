@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Primeiro app Vue.js</title>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="./teste.css">
+    <script src="./vue.js"></script>
+</head>
+
+<body>
+    <div id="primeiroApp">
+
+        Contador: {{ contador }}
+
+        <button v-on:click="toggle">{{ acaoContador() }}</button>
+
+    </div>
+</body>
+
+</html>
